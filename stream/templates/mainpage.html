@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Stream</title>
+</head>
+<body class="mainpage">
+    <header>
+        <h1 class="stream-site-name">STREAM</h1>
+        <div class="show-buttons">
+            <a href="/streaming">Camera</a>
+        </div>
+    </header>
+    <main>
+        <div class="info-n-pic">
+            <div class="info">
+                <h1>StreamFromCam</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatibus error ab, quisquam dolorem molestiae culpa! Architecto debitis, dolorum quibusdam voluptas animi natus, quod inventore delectus repudiandae reiciendis consequuntur dolore?</p>
+            </div>
+            <div class="fun-pic">
+                <img src="{% static 'funpicture.jpg' %}">
+            </div>
+        </div> 
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
