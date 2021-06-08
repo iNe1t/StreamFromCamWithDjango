@@ -22,6 +22,7 @@ from django.conf import settings
 urlpatterns = [
     path('', include('mainpage.urls')),
     path('streaming', include('show.urls')),
+    path('camera', include('streampage.urls')),
     path('admin', admin.site.urls)
 ]
 if settings.DEBUG:
