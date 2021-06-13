@@ -3,10 +3,8 @@ from django.http import StreamingHttpResponse
 
 import cv2
 import threading
-import io
 import numpy as np
-import imutils
-import time
+
 
 
 
