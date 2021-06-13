@@ -1,7 +1,5 @@
 from django.views.decorators import gzip
 from django.http import StreamingHttpResponse
-from picamera import PiCamera
-from imutils.video import VideoStream, FPS
 
 import cv2
 import threading
